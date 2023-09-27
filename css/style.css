@@ -73,12 +73,6 @@ body{
    
 }
 
-
-.cta--nav{
-    display: none;
-
-}
-
 .hero__main{
     max-width: 1200px;
 
@@ -106,7 +100,73 @@ body{
     background-image: url("../images/image-mockups.png");
     background-size: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.hero__texts{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.hero__title{
+    margin-top: 1em;
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+
+
+.hero__paragraph{
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 1em 0 1.5em;
+    color: var(--grayish-blue);
+}
+
+.cta{
+    display: inline-block;
+    padding: 1em 2em;
+    background-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2em;
+}
+
+.easybank{
+    background-color: var(--light-grayish-blue);
+
+}
+
+.easybank__container{
+    text-align: center;
+    padding: 70px;
+
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--dark-blue);
+
+}
+
+.easy__paragraph{
+    line-height: 1.5;
+    margin-top: 1em;
+    margin-bottom: 4em;
+    color: var(--grayish-blue);
+
+
 }
 
 
 
+
+
+.cta--nav{
+    display: none;
+
+}
